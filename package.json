@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "First node",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "keywords": [],
+  "author": "Danial",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7"
+  }
+}
